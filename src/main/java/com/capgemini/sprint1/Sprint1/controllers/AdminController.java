@@ -32,6 +32,7 @@ import com.capgemini.sprint1.Sprint1.services.ProductService;
 @RequestMapping("/admin")
 public class AdminController {
 
+	//This field is autowired
 	@Autowired
 	private AdminService adminService;
 
